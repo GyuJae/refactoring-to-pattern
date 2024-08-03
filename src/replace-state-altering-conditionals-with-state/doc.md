@@ -15,3 +15,8 @@
 
 - State: 여러 상태간의 전이가 쉬움 때
 - Strategy: 런타임에 상황에 맞는 로직을 선택할 때
+
+### 절차
+
+1. state String 타입의 필드를 별도의 클래스의 만든다. (필드 이름도 permissionState로 바꾼다)
+2. PermissionState 추상클래스로 만든다.
